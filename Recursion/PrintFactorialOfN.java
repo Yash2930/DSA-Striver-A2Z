@@ -1,7 +1,7 @@
 public class PrintFactorialOfN {
     
     public static int printFactorial(int n){
-        if(n==1git) return 1;
+        if(n==1) return 1;
 
         return n*printFactorial(n-1);
     }
