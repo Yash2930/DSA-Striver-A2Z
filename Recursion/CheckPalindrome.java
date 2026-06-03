@@ -5,17 +5,17 @@ public class CheckPalindrome {
     }
 
     private boolean check(String s, int left, int right) {
-        // Base case
+     
         if (left >= right) {
             return true;
         }
 
-        // If characters don't match
+        
         if (s.charAt(left) != s.charAt(right)) {
             return false;
         }
 
-        // Recursive call
+       
         return check(s, left + 1, right - 1);
     }
 
